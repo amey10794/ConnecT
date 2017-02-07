@@ -1,0 +1,91 @@
+.row-footer{
+    background-color: #AfAfAf;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.row-header{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1.5px ridge;
+    min-height: 400px;
+    background-color: #f6f6f6;
+}
+.row-content1{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1.5px ridge;
+    min-height: 400px;
+    
+}
+#head{
+    color: grey;
+    font-size: 35px;
+    font-family: "Cambria";
+}
+#content{
+        font-size: 17px;
+        
+}
+.jumbotron{
+    padding: 70px 30px 70px 30px;
+    margin: 0pz auto;
+    
+    background-image: url(http://www.acsu.buffalo.edu/~ameyanil/back12.bmp);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    color:floralwhite;
+    
+    
+}
+
+.navbar-inverse {
+     background: #303F9F;
+    display: inline;
+    
+}
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:hover,
+.navbar-inverse .navbar-nav .active a:focus{
+    color: #fff;
+    background: #1A237E;
+}
+h2 a{
+    color:gold;
+}
+h2 a:hover{
+    color: teal;
+    
+}
+.navbar-left:hover{
+    -moz-transform: scale(1.1);
+  -webkit-transform: scale(3);
+  transform: scale(3);
+    transition-duration: 0.7s;
+    position: relative;
+    bottom: -35px;
+    right: -30px;
+    
+    
+}
+
+.index{
+    background: #7986CB;
+}
+#div1{
+    display: inline-block;
+    top: 300px;
+}
+
+.grow
+{
+    display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px transparent;-webkit-transition-duration:.7s;transition-duration:.7s;-webkit-transition-property:transform;transition-property:transform
+}
+.grow:active,.hvr-grow:focus,.hvr-grow:hover
+{
+    -webkit-transform:scale(3);transform:scale(3)
+}
